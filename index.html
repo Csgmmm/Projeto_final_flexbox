@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Santini Ice Cream</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
   <body>
     <header class="header">
@@ -17,79 +18,89 @@
           <li><a href="#flavours">Sabores</a></li>
           <li><a href="#order">Encomendar</a></li>
           <li><a href="#careers">Recrutamento</a></li>
-          <li><a href="#about">Sobre nós</a></li>
         </ul>
+         <div class="nav-buttons">
+      <a href="#login" class="login-btn">Log in</a>
+      <a href="#signup" class="signup-btn">Sign up</a>
+    </div>
       </nav>
       <div class="container">
       <div class="header-text">
-        <h1>Santini Gelados</h1>
+        <h1>O <span class="highlight">Verdadeiro Sabor</span> de Outros Tempos</h1>
         <p>O sabor autêntico dos gelados artesanais</p>
+        <a href="#order" class="btn">Encomendar</a>
       </div>
       <div class="header-img">
-        <img src="./logo-santini.png" alt="Gelado Santini" />
+        <img src="./header_fruit.png" alt="Gelado Santini" />
       </div>
         </div>
     </header>
-    <section class="flavours">
-      <h2>Os Nossos Sabores</h2>
-      <div class="flavours__grid">
-        <div class="flavour-card">
-          <img src="gelado1.jpg" alt="Gelado de morango" />
-          <h3>Morango</h3>
-          <p>Gelado fresco de morango artesanal.</p>
-          <button class="btn-add">Adicionar</button>
-        </div>
-      </div>
-    </section>
+    
+<div class="main-content">
+      <h2>Alguns dos nossos produtos</h2>
+   <div class="cards-container">
+  <div class="card">
+    <img src="./card-1.png" alt="Product 1" class="card-img">
+    <div class="card-info">
+      <h3 class="card-title">Divino Cream</h3>
+      <p class="card-price">4.99€</p>
+    </div>
+  </div>
 
-    <section class="order">
-      <h2>Fazer Pedido</h2>
-      <form class="order-form">
-        <div class="form-group">
-          <label for="flavour">Sabor:</label>
-          <select id="flavour" name="flavour">
-            <option value="morango">Morango</option>
-            <option value="chocolate">Chocolate</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="quantity">Quantidade:</label>
-          <input
-            type="number"
-            id="quantity"
-            name="quantity"
-            min="1"
-            value="1"
-          />
-        </div>
-        <div class="form-group">
-          <label for="name">Nome:</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="form-group">
-          <label for="address">Morada:</label>
-          <input type="text" id="address" name="address" required />
-        </div>
-        <button type="submit" class="btn-submit">Enviar Pedido</button>
-      </form>
-    </section>
+  <div class="card">
+    <img src="./card-2.png" alt="Product 2" class="card-img">
+    <div class="card-info">
+      <h3 class="card-title">Cantinho da Capadócia</h3>
+      <p class="card-price">7.00€</p>
+    </div>
+  </div>
 
-    <section class="about">
-      <h2>Sobre a Santini</h2>
+  <div class="card">
+    <img src="./card-3.png" alt="Product 3" class="card-img">
+    <div class="card-info">
+      <h3 class="card-title">Oásis Mediterrâneo</h3>
+      <p class="card-price">5.50€</p>
+    </div>
+  </div>
+</div>
+<a href="#seemore" class="btn-seemore">Ver mais</a>
+</div>
+
+   <div class="about-container">
+  <div class="about-text">
+          <h2>Sobre nós</h2>
+      <p>
+        Fundada em 1949, a Santini é uma gelataria icónica em Portugal,
+        conhecida pelos seus gelados artesanais feitos com ingredientes
+        naturais e receitas tradicionais.
+        Com uma variedade de sabores que agradam a todos os gostos, a Santini
+        continua a ser um destino popular para os amantes de gelado.
+      </p>
       <p>
         A Santini é famosa pelos seus gelados artesanais, feitos com
         ingredientes de alta qualidade e paixão.
       </p>
-    </section>
+
+  </div>
+         <div class="about-img">
+        <img src="./about.png" alt="Gelado Santini" />
+      </div>
+</div>
+
+
 
     <footer class="footer">
-      <p>© 2025 Santini Gelados</p>
-      <p>Contato: +351 912 345 678 | Instagram</p>
-    </footer>
-</div>
+  <div class="social-icons">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </a>
+<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </a>
+  <a href="tel:+1234567890"><i class="fas fa-phone"></i></a>
+    </a>
+  </div>
+  <p>© 2025 Santini. Todos os direitos reservados.</p>
+</footer>
+
+
   </body>
 </html>
