@@ -1,25 +1,23 @@
-# Santini – Mini Projeto HTML & CSS
+# Santini – Mini HTML and CSS Project
 
-Este projeto foi criado para praticar HTML e CSS desenvolvendo uma página inspirada na marca Santini.
+This project was created to practice HTML and CSS by developing a page inspired by the Santini brand.
 
-## 🎯 Objetivos
+## 🎯 Objectives
 
-* Criar uma página simples e limpa.
-* Aplicar princípios de layout, tipografia e cor.
-* Treinar responsividade básica.
+* Create a simple and clean page.
+* Apply principles of layout, typography and color.
+* Practice basic responsiveness.
 
-## 🧱 Tecnologias
+## 🧱 Technologies
 
 * HTML5
 * CSS3
 
+## 🎨 Style
 
-## 🎨 Estilo
+* Minimalist layout
+* Simple and modern typography
 
-* Layout minimalista
-* Tipografia simples e moderna
+## 📄 Note
 
-
-## 📄 Nota
-
-Projeto feito apenas para fins educativos, sem ligação oficial à marca Santini.
+This project was created for educational purposes only and has no official connection to the Santini brand.
