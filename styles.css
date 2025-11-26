@@ -288,7 +288,6 @@ body {
   border: #ccc solid 1px;
 }
 
-/* Left side with background image */
 .login-image-side {
   color: white;
   display: flex;
@@ -399,10 +398,6 @@ input::placeholder {
   transition: opacity 0.2s ease;
 }
 
-.login-side button:hover {
-  opacity: 0.9;
-}
-
 .login-links {
   margin-top: 15px;
   font-size: 14px;
@@ -429,3 +424,13 @@ input::placeholder {
   width: 100%;
   bottom: 0;
 }
+
+/* Products page */
+
+.main-content {
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+/* Recruitment page */
+
